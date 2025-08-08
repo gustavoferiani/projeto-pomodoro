@@ -1,0 +1,22 @@
+{
+  "editor.glyphMargin": false,
+  "editor.wordWrap": "on",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 1000,
+  "files.trimTrailingWhitespace": true,
+  "files.insertFinalNewline": true,
+
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Prettier (se estiver instalado)
+  "prettier.tabWidth": 2,
+  "prettier.semi": true,
+  "prettier.singleQuote": true,
+  // ESLint (se instalado)
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue"
+  ],
+}
