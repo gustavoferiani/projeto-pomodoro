@@ -1,0 +1,27 @@
+.logo {
+  /* margin: 3.2rem 0; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2.4rem;
+  margin-top:6.5rem;
+}
+
+.logoLink {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: .5rem;
+  font-size: 4.2rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.logoLink svg {
+  width: 6.4rem;
+  height: 6.4rem;
+}
+
+
