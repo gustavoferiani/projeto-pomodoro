@@ -1,30 +1,29 @@
-.logo {
-  /* margin: 3.2rem 0; */
+.menu {
   display: flex;
   justify-content: center;
   align-items:  center;
-  gap: 2.4rem;
-  margin-top:6.5rem;
+  gap: 1.4rem;
 }
 
-.logoLink {
+.menuLink {
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: .5rem;
   font-size: 4.2rem;
   font-weight: bold;
   text-decoration: none;
-  color: var(--primary);
+  background: var(--primary);
+  color: var(--text-over-primary);
   transition: all .3s ease-in-out;
+  border-radius: .5rem;
+  padding: 1rem;
 }
 
-.logoLink svg {
-  width: 6.4rem;
-  height: 6.4rem;
+.menuLink svg {
+  width: 2.4rem;
+  height: 2.4rem;
 }
 
-.logoLink:hover {
-  filter: brightness(75%);
+.menuLink:hover {
+  filter: brightness(50%);
 }
