@@ -6,6 +6,7 @@ import { Logo } from './components/Logo';
 import { Menu } from './components/Menu';
 import { CountDown } from './components/CountDown';
 import { DefaultInput } from './components/DefaultInput';
+import { Cycles } from './components/Cycles';
 
 export function App() {
   return (
@@ -24,17 +25,26 @@ export function App() {
       </Container>
 
       <Container>
-        <form className='form' action=''>
-          <div className='formRow'>
-            <DefaultInput labelText='teste' id='meuInput' type='text' />
+        <form className="form" action="">
+          <div className="formRow">
+            <DefaultInput
+              labelText="Tarefa"
+              id="meuInput"
+              type="text"
+              placeholder="Nome da Tarefa"
+            />
           </div>
 
           <div className="formRow">
-            <p>Nesse ciclo <b>descanse</b> por <b>5 min.</b></p>
+            <p>
+              Nesse ciclo <b>descanse</b> por <b>5 min.</b>
+            </p>
           </div>
+
           <div className="formRow">
-            <p>Ciclos</p>
+            <Cycles />
           </div>
+
           <div className="formRow">
             <button>Enviar</button>
           </div>

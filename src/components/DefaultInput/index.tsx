@@ -1,3 +1,5 @@
+import styles from './styles.module.css';
+
 //Props objetos
 type DefaultInputProps = {
   id: string;
@@ -11,13 +13,18 @@ type DefaultInputProps = {
   type: 'text' | 'number' | 'search'; */
 } & React.ComponentProps<'input'>; /* TAGS do JSX */
 
-export function DefaultInput({ id, type, labelText }: DefaultInputProps) {
+export function DefaultInput({
+  id,
+  type,
+  labelText,
+  ...rest
+}: DefaultInputProps) {
   return (
     /* <> </> = Fragmento */
     <>
-      {labelText ? 'Verdadeiro' : 'Falso'} {/* Condicional // V ou F */}
-      {/* <label htmlFor={id}>{labelText}</label> */}
-      <input id={id} type={type} />
+      {/* {labelText ? 'Verdadeiro' : 'Falso'} {/* Condicional // V ou F */}
+      <label htmlFor={id}>{labelText}</label>
+      <input className={styles.input} id={id} type={type} {...rest} />
     </>
   );
 }
