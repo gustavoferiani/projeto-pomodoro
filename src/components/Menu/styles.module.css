@@ -22,8 +22,9 @@
 .menuLink svg {
   width: 2.4rem;
   height: 2.4rem;
+  color: var(--cinza-900);
 }
 
 .menuLink:hover {
-  filter: brightness(50%);
+  filter: brightness(80%);
 }

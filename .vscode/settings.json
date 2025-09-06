@@ -8,6 +8,7 @@
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "workbench.editor.labelFormat": "short",
+  "explorer.compactFolders": false,
   // Prettier (se estiver instalado)
   "prettier.tabWidth": 2,
   "prettier.semi": true,
